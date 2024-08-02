@@ -7,7 +7,7 @@ import tkinter as tk
 import GUI
 
 # Load the dataset
-data = pd.read_csv('Database/Training.csv')
+data = pd.read_csv('training.csv')
 df = pd.DataFrame(data)
 
 cols = df.columns[:-1]
